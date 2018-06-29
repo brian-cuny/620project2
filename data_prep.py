@@ -56,16 +56,16 @@ if __name__ == '__main__':
 
     results = neo.query('MATCH (a:Airport)-[c]->(b:City),'
                         '(b)<-[]-(a2:Airport) \
-                         WHERE b.loc ENDS WITH "Nigeria" \
+                         WHERE b.loc ENDS WITH "United Kingdom" \
                         AND a <> a2 \
                        RETURN a.id, b.loc, c.weight')
 
-    results = neo.query('MATCH (a:Airport)-[c]->(b:City)\
-                        WHERE b.loc ENDS WITH "United States" \
-                        OR b.loc ENDS WITH "Canada" \
-                       RETURN a.id, b.loc, c.weight')
+    # results = neo.query('MATCH (a:Airport)-[c]->(b:City)\
+    #                     WHERE b.loc ENDS WITH "United States" \
+    #                     OR b.loc ENDS WITH "Canada" \
+    #                    RETURN a.id, b.loc, c.weight')
     #usa
-    results = [(a, b.split(',')[0], c) for a, b, c in results]
+    # results = [(a, b.split(',')[0], c) for a, b, c in results]
 
     airports = []
     cities = []
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     # nx.draw_networkx(g, with_labels=True, node_color=n_color, width=widths, edge_color=widths, pos=pos)
     # plt.show()
 
-    # nx.write_gexf(g, 'all.gexf')
+    # nx.write_gexf(g, 'uk.gexf')
 
     two = bi.weighted_projected_graph(g, cities, ratio=False)
     widths = [int(edata['weight']) for f, t, edata in two.edges(data=True)]
@@ -93,33 +93,33 @@ if __name__ == '__main__':
     # nx.draw_networkx(two, width=widths, edge_color=widths)
     # plt.show()
 
-    # nx.write_gexf(two, 'cities.gexf')
+    nx.write_gexf(two, 'uk_cities.gexf')
 
-    def trim_edges(g, weight=1):
-        g2 = nx.Graph()
-        # g2.add_nodes_from(g.nodes(data=True))
-        for f, t, edata in g.edges(data=True):
-            if edata['weight'] > weight:
-                g2.add_edge(f, t, weight=edata['weight'])
-        return g2
-
-    def island_method(g, iterations = 10):
-        weights = [int(edata['weight']) for f, to, edata in g.edges(data=True)]
-        mn = int(min(weights))
-        mx = int(max(weights))
-        step = int((mx-mn)/iterations)
-
-        return [[threshold, trim_edges(g, threshold)] for threshold in range(mn, mx, step)]
-
-    islands = island_method(two)
-    for i in islands:
-        print(i[0], len(i[1]), len(list(nx.connected_component_subgraphs(i[1]))))
-
-    to_disp = trim_edges(two, weight=78)
-    for part in nx.connected_component_subgraphs(to_disp):
-        widths = [int(edata['weight'])/100 for f, t, edata in part.edges(data=True)]
-        nx.draw_networkx(part, width=widths, edge_color=widths)
-        plt.show()
+    # def trim_edges(g, weight=1):
+    #     g2 = nx.Graph()
+    #     # g2.add_nodes_from(g.nodes(data=True))
+    #     for f, t, edata in g.edges(data=True):
+    #         if edata['weight'] > weight:
+    #             g2.add_edge(f, t, weight=edata['weight'])
+    #     return g2
+    #
+    # def island_method(g, iterations = 10):
+    #     weights = [int(edata['weight']) for f, to, edata in g.edges(data=True)]
+    #     mn = int(min(weights))
+    #     mx = int(max(weights))
+    #     step = int((mx-mn)/iterations)
+    #
+    #     return [[threshold, trim_edges(g, threshold)] for threshold in range(mn, mx, step)]
+    #
+    # islands = island_method(two)
+    # for i in islands:
+    #     print(i[0], len(i[1]), len(list(nx.connected_component_subgraphs(i[1]))))
+    #
+    # to_disp = trim_edges(two, weight=78)
+    # for part in nx.connected_component_subgraphs(to_disp):
+    #     widths = [int(edata['weight'])/100 for f, t, edata in part.edges(data=True)]
+    #     nx.draw_networkx(part, width=widths, edge_color=widths)
+    #     plt.show()
 
 
 

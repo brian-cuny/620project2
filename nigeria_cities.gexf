@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="bipartite" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>29/06/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id=", Nigeria" label=", Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Abuja, Nigeria" label="Abuja, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Akure, Nigeria" label="Akure, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Benin, Nigeria" label="Benin, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Calabar, Nigeria" label="Calabar, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Enugu, Nigeria" label="Enugu, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ilorin, Nigeria" label="Ilorin, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jos, Nigeria" label="Jos, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kaduna, Nigeria" label="Kaduna, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kano, Nigeria" label="Kano, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lagos, Nigeria" label="Lagos, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Osubi, Nigeria" label="Osubi, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Port Hartcourt, Nigeria" label="Port Hartcourt, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sokoto, Nigeria" label="Sokoto, Nigeria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source=", Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="1" source=", Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="2" source=", Nigeria" target="Calabar, Nigeria" weight="2" />
+      <edge id="3" source=", Nigeria" target="Kaduna, Nigeria" weight="2" />
+      <edge id="4" source=", Nigeria" target="Ilorin, Nigeria" weight="1" />
+      <edge id="5" source=", Nigeria" target="Benin, Nigeria" weight="2" />
+      <edge id="6" source=", Nigeria" target="Enugu, Nigeria" weight="1" />
+      <edge id="7" source=", Nigeria" target="Akure, Nigeria" weight="2" />
+      <edge id="8" source=", Nigeria" target="Osubi, Nigeria" weight="2" />
+      <edge id="9" source=", Nigeria" target="Jos, Nigeria" weight="1" />
+      <edge id="10" source=", Nigeria" target="Abuja, Nigeria" weight="3" />
+      <edge id="11" source=", Nigeria" target="Lagos, Nigeria" weight="3" />
+      <edge id="12" source=", Nigeria" target="Kano, Nigeria" weight="2" />
+      <edge id="13" source="Abuja, Nigeria" target="Sokoto, Nigeria" weight="2" />
+      <edge id="14" source="Abuja, Nigeria" target="Port Hartcourt, Nigeria" weight="3" />
+      <edge id="15" source="Abuja, Nigeria" target="Calabar, Nigeria" weight="3" />
+      <edge id="16" source="Abuja, Nigeria" target="Kaduna, Nigeria" weight="3" />
+      <edge id="17" source="Abuja, Nigeria" target="Ilorin, Nigeria" weight="2" />
+      <edge id="18" source="Abuja, Nigeria" target="Benin, Nigeria" weight="3" />
+      <edge id="19" source="Abuja, Nigeria" target="Enugu, Nigeria" weight="2" />
+      <edge id="20" source="Abuja, Nigeria" target="Akure, Nigeria" weight="3" />
+      <edge id="21" source="Abuja, Nigeria" target="Osubi, Nigeria" weight="3" />
+      <edge id="22" source="Abuja, Nigeria" target="Jos, Nigeria" weight="1" />
+      <edge id="23" source="Abuja, Nigeria" target="Lagos, Nigeria" weight="17" />
+      <edge id="24" source="Abuja, Nigeria" target="Kano, Nigeria" weight="6" />
+      <edge id="25" source="Akure, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="26" source="Akure, Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="27" source="Akure, Nigeria" target="Calabar, Nigeria" weight="2" />
+      <edge id="28" source="Akure, Nigeria" target="Kaduna, Nigeria" weight="2" />
+      <edge id="29" source="Akure, Nigeria" target="Ilorin, Nigeria" weight="1" />
+      <edge id="30" source="Akure, Nigeria" target="Benin, Nigeria" weight="2" />
+      <edge id="31" source="Akure, Nigeria" target="Enugu, Nigeria" weight="1" />
+      <edge id="32" source="Akure, Nigeria" target="Osubi, Nigeria" weight="2" />
+      <edge id="33" source="Akure, Nigeria" target="Jos, Nigeria" weight="1" />
+      <edge id="34" source="Akure, Nigeria" target="Lagos, Nigeria" weight="3" />
+      <edge id="35" source="Akure, Nigeria" target="Kano, Nigeria" weight="2" />
+      <edge id="36" source="Benin, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="37" source="Benin, Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="38" source="Benin, Nigeria" target="Calabar, Nigeria" weight="2" />
+      <edge id="39" source="Benin, Nigeria" target="Kaduna, Nigeria" weight="2" />
+      <edge id="40" source="Benin, Nigeria" target="Ilorin, Nigeria" weight="1" />
+      <edge id="41" source="Benin, Nigeria" target="Enugu, Nigeria" weight="1" />
+      <edge id="42" source="Benin, Nigeria" target="Osubi, Nigeria" weight="2" />
+      <edge id="43" source="Benin, Nigeria" target="Jos, Nigeria" weight="1" />
+      <edge id="44" source="Benin, Nigeria" target="Lagos, Nigeria" weight="3" />
+      <edge id="45" source="Benin, Nigeria" target="Kano, Nigeria" weight="2" />
+      <edge id="46" source="Calabar, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="47" source="Calabar, Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="48" source="Calabar, Nigeria" target="Kaduna, Nigeria" weight="2" />
+      <edge id="49" source="Calabar, Nigeria" target="Ilorin, Nigeria" weight="1" />
+      <edge id="50" source="Calabar, Nigeria" target="Enugu, Nigeria" weight="1" />
+      <edge id="51" source="Calabar, Nigeria" target="Osubi, Nigeria" weight="2" />
+      <edge id="52" source="Calabar, Nigeria" target="Jos, Nigeria" weight="1" />
+      <edge id="53" source="Calabar, Nigeria" target="Lagos, Nigeria" weight="3" />
+      <edge id="54" source="Calabar, Nigeria" target="Kano, Nigeria" weight="2" />
+      <edge id="55" source="Enugu, Nigeria" target="Port Hartcourt, Nigeria" weight="1" />
+      <edge id="56" source="Enugu, Nigeria" target="Kaduna, Nigeria" weight="1" />
+      <edge id="57" source="Enugu, Nigeria" target="Osubi, Nigeria" weight="1" />
+      <edge id="58" source="Enugu, Nigeria" target="Jos, Nigeria" weight="1" />
+      <edge id="59" source="Enugu, Nigeria" target="Lagos, Nigeria" weight="3" />
+      <edge id="60" source="Enugu, Nigeria" target="Kano, Nigeria" weight="3" />
+      <edge id="61" source="Ilorin, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="62" source="Ilorin, Nigeria" target="Port Hartcourt, Nigeria" weight="1" />
+      <edge id="63" source="Ilorin, Nigeria" target="Kaduna, Nigeria" weight="1" />
+      <edge id="64" source="Ilorin, Nigeria" target="Osubi, Nigeria" weight="1" />
+      <edge id="65" source="Ilorin, Nigeria" target="Lagos, Nigeria" weight="1" />
+      <edge id="66" source="Ilorin, Nigeria" target="Kano, Nigeria" weight="1" />
+      <edge id="67" source="Jos, Nigeria" target="Port Hartcourt, Nigeria" weight="1" />
+      <edge id="68" source="Jos, Nigeria" target="Kaduna, Nigeria" weight="1" />
+      <edge id="69" source="Jos, Nigeria" target="Osubi, Nigeria" weight="1" />
+      <edge id="70" source="Jos, Nigeria" target="Lagos, Nigeria" weight="2" />
+      <edge id="71" source="Jos, Nigeria" target="Kano, Nigeria" weight="1" />
+      <edge id="72" source="Kaduna, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="73" source="Kaduna, Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="74" source="Kaduna, Nigeria" target="Osubi, Nigeria" weight="2" />
+      <edge id="75" source="Kaduna, Nigeria" target="Lagos, Nigeria" weight="3" />
+      <edge id="76" source="Kaduna, Nigeria" target="Kano, Nigeria" weight="2" />
+      <edge id="77" source="Kano, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="78" source="Kano, Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="79" source="Kano, Nigeria" target="Osubi, Nigeria" weight="2" />
+      <edge id="80" source="Kano, Nigeria" target="Lagos, Nigeria" weight="8" />
+      <edge id="81" source="Lagos, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="82" source="Lagos, Nigeria" target="Port Hartcourt, Nigeria" weight="3" />
+      <edge id="83" source="Lagos, Nigeria" target="Osubi, Nigeria" weight="3" />
+      <edge id="84" source="Osubi, Nigeria" target="Sokoto, Nigeria" weight="1" />
+      <edge id="85" source="Osubi, Nigeria" target="Port Hartcourt, Nigeria" weight="2" />
+      <edge id="86" source="Port Hartcourt, Nigeria" target="Sokoto, Nigeria" weight="1" />
+    </edges>
+  </graph>
+</gexf>
